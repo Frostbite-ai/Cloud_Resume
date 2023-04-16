@@ -17,9 +17,10 @@ ul {
 }
 
 
-h2 {
+h3 {
     margin: 0;
-    margin-bottom: -4px;
+    margin-bottom: -6px;
+    margin-top: 5px;
 }
 
 .container1 {
