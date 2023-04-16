@@ -1,7 +1,92 @@
-
-body{
-    font-family: 'Tenor Sans',sans-serif;
+body {
+    font-family: 'Tenor Sans';
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
+span {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+h2 {
+    margin: 0;
+    margin-bottom: -4px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0 200px;
+    
+   
+
+}
+
+
+
+
+
+
+.container1 h1 {
+    
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.solid
+{
+    border-bottom: 0.1px solid black;
+  
+    
+
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navigation li {
+    position: relative;
+}
+
+
+.objectivein,
+.btech,
+.school,
+.language,
+.development,
+.cloud,
+.course {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    margin-left: -20px;
+
+    
+}
+
+.certificates ul,
+.cca ul,
+.leadership ul,
+.projects ul {
+    list-style-type: initial;
+}
+
+a {
+    text-decoration: none;
+    color: darkslategray;
+}
